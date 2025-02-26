@@ -1,0 +1,179 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #095cb5;
+    color: #000000;
+    
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarhead h1{
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 27px;
+    background-color: #2085f1;
+    width: 250px;
+    border-radius: 0, 10px;
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding: 2%;
+}
+
+.weather-btn {
+    position: absolute;
+    margin-top: 150px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 250px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    background-color: #095cb5;
+    border-style: hidden;
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        color 0.3s ease;
+}
+
+.weather-btn:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    background-color: #126ccd;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.weather-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.favorite-btn {
+    position: absolute;
+    margin-top: 250px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    box-sizing: border-box;
+    width: 250px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    background-color: #095cb5;
+    border-style: hidden;
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        color 0.3s ease;
+}
+
+.favorite-btn:hover {
+    opacity: 1;
+    transform: scale(1.02);
+    background-color: #126ccd;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.favorite-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.calendar-btn {
+    position: absolute;
+    margin-top: 250px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    box-sizing: border-box;
+    width: 250px;
+    height: 59px;
+    align-items: center;
+    justify-content: center;
+    background-color: #095cb5;
+    border-style: hidden;
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        color 0.3s ease;
+}
+
+.calendar-btn:hover {
+    opacity: 1;
+    transform: scale(1.02);
+    background-color: #126ccd;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.calendar-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.Logout-btn{
+    position: absolute;
+    margin-top: 600px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid;
+    gap: var(--size-space-200);
+    box-sizing: border-box;
+    width: 150px;
+    margin-left: 3.4%;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-style: hidden;
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        color 0.3s ease;
+}
+
+.Logout-btn:hover {
+    opacity: 1;
+    transform: scale(1.06);
+    background-color: #126ccd;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.Logout-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}

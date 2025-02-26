@@ -1,0 +1,140 @@
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #E29C36;
+    padding-top: 5%;
+}
+
+.registration-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: medium;
+    color: #1a1a1a;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 550;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: black;
+}
+
+.error-message {
+    color: #ff6b6b;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.registration-form h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+.login-link{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #E29C36;
+    font-size: 1.4rem;
+}
+.registration-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #E29C36;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    color 0.3s ease;
+}
+
+.registration-button:hover {
+    background-color: #E29C36;
+    color: #ffffff;
+    opacity: 1;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.registration-button:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media (prefers-color-scheme: light) {
+    .registration-container {
+    background-color: #ffffff;
+    color: #213547;
+    }
+
+    .registration-form {
+    background-color: #f9f9f9;
+    }
+
+    .form-group input {
+    background-color: #ffffff;
+    color: #213547;
+    border: 1px solid #ccc;
+    }
+
+    .error-message {
+    color: #ff6b6b;
+    }
+
+    .registration-button {
+    background-color: #535bf2;
+    }
+
+    .registration-button:hover {
+    background-color: #424bb5;
+    }
+}
+
+@media (max-width: 768px) {
+    .registration-form {
+    padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .registration-form {
+    padding: 1rem;
+    }
+}

@@ -1,0 +1,137 @@
+.navigation {
+    display: flex;
+    align-self: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 991px) {
+    .navigation {
+      white-space: unset;
+    }
+  }
+  .home-btn {
+    flex: 1;
+    border-radius: 8px;
+    min-height: 45px;
+    padding: 15px 12px;
+    color: black;
+    border-style: none;
+    background-color: #E29C36;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease,
+      box-shadow 0.3s ease,
+      color 0.3s ease;
+}
+.home-btn:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  background-color: #cb8721;
+  color: black;
+  cursor: pointer;
+}
+.home-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+  @media (max-width: 991px) {
+    .home-btn {
+      white-space: initial;
+    }
+  }
+
+  .ABOUT-btn {
+    flex: 1;
+    border-radius: 8px;
+    min-height: 45px;
+    padding: 15px 12px;
+    color: black;
+    border-style: none;
+    background-color: #E29C36;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease,
+      box-shadow 0.3s ease,
+      color 0.3s ease;
+}
+.ABOUT-btn:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  background-color: #cb8721;
+  color: black;
+  cursor: pointer;
+}
+.ABOUT-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+  @media (max-width: 991px) {
+    .ABOUT-btn {
+      white-space: initial;
+    }
+  }
+
+  .login-btn {
+    flex: 1;
+    border-radius: 8px;
+    min-height: 45px;
+    padding: 15px 12px;
+    color: black;
+    border-style: none;
+    background-color: #E29C36;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease,
+      box-shadow 0.3s ease,
+      color 0.3s ease;
+  }
+  .login-btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    background-color: #cb8721;
+    color: black;
+    cursor: pointer;
+  }
+  .login-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width: 991px) {
+    .login-btn {
+      white-space: initial;
+    }
+  }
+
+  .register-btn {
+    flex: 1;
+    border-radius: 8px;
+    min-height: 45px;
+    padding: 15px 12px;
+    color: black;
+    border-style: hidden;
+    background-color: #E29C36;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease,
+      box-shadow 0.3s ease,
+      color 0.3s ease;
+  }
+  .register-btn:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    background-color: #cb8721;
+    color: black;
+    cursor: pointer;
+  }
+  .register-btn:active {
+    transform: scale(0.98);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width: 991px) {
+    .register-btn {
+      white-space: initial;
+    }
+  }
