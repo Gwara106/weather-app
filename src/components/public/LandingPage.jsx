@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Link } from 'react-router-dom';
-import Navigation from './Navigation.jsx';
-import './LandingPage.css'
-import landingPageImage from '../assets/landingpagefront.png';
-import Login from './login';
-import Registration from './registration';
+import landingPageImage from '../../assets/landingpagefront.png';
 import About from './about';
+import './LandingPage.css';
+import Login from './login.jsx';
+import Navigation from './Navigation.jsx';
+import Registration from './registration.jsx';
 
 function LandingPage() {
   const [showComponent, setShowComponent] = React.useState('home');

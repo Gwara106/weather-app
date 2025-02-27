@@ -5,7 +5,12 @@ dotenv.config();
 // Middleware to verify JWT token
 export function authenticateToken(req, res, next) {
   console.log('Authenticating token...');
-  
+  if (req.path === "/api/auth/login") {
+    return next();
+  }
+  if (req.path === "/api/users/registration") {
+    return next();
+  }
   // Get token from Authorization header
   const authHeader = req.headers.authorization;
   console.log('Auth header:', authHeader);

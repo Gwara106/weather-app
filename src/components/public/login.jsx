@@ -3,8 +3,8 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { callAuthInit } from '../utils/authUtils';
-import { API_ENDPOINTS } from '../config';
+import { API_ENDPOINTS } from '../../config';
+import { callAuthInit } from '../../utils/authUtils';
 import './loginsStyle.css';
 
 const Login = () => {
@@ -34,13 +34,13 @@ const Login = () => {
       localStorage.setItem("token", response.data.data.access_token);
       
       // Then call auth init
-      try {
-        await callAuthInit();
-        toast.success("Login successful");
-      } catch (error) {
-        console.error("Error initializing user:", error);
-        toast.error('Error initializing user session');
-      }
+      // try {
+      //   await callAuthInit();
+      //   toast.success("Login successful");
+      // } catch (error) {
+      //   console.error("Error initializing user:", error);
+      //   toast.error('Error initializing user session');
+      // }
 
       // Navigate to weather page regardless of auth init success
       navigate('/weather');
